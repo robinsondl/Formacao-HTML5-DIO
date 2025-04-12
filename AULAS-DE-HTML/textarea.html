@@ -2,29 +2,32 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulario de Cadastro</title>
-    </head>
-    <body>
-        <form onsubmit="" method="get"> 
-            <label>Nome: </label> <input type="text" name="name"> <br>
-            <label>Cargo: </label>
-            <select name="role">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+
+<body>
+    <form onsubmit="" method="get">
+        <label>Nome: </label> <input type="text" name="name"> <br>
+        <label>Cargo: </label>
+        <select name="role">
             <!-- <select name="role" multiple> -->
-                <option value="TI"> TI</option>
-                <option value="ADM"> ADM</option>
-                <option value="RH"> RH</option>
-                <option value="FISCAL"> FISCAL</option>
-                <option value="GERENTE"> GERENTE</option>
-                <option value="DIRETOR"> DIRETOR</option>
-            </select> <br>
-            <label>Assunto: </label> <input type="text" name="assunto"> <br>
-            <label>Mensagem: </label>
-            <textarea rows="20" cols="50" name="message"></textarea> <br>
-            <button type="submit" onclick="alert('Enviado')"> Submit </button>
-        </form>
-    </body>
+            <option value="TI"> TI</option>
+            <option value="ADM"> ADM</option>
+            <option value="RH"> RH</option>
+            <option value="FISCAL"> FISCAL</option>
+            <option value="GERENTE"> GERENTE</option>
+            <option value="DIRETOR"> DIRETOR</option>
+        </select> <br>
+        <label>Assunto: </label> <input type="text" name="assunto"> <br>
+        <label>Mensagem: </label>
+        <textarea rows="20" cols="50" name="message"></textarea> <br>
+        <button type="submit" onclick="alert('Enviado')"> Submit </button>
+    </form>
+</body>
+
 </html>

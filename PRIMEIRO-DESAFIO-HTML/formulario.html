@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template - Utilizar como modelo</title>
+    <title>Pet.Lar</title>
+    <style>
+        button {}
+
+        .header {
+            display: flex;
+            align-items: center;
+            /* alinha verticalmente */
+            gap: 16px;
+            /* espaço entre imagem e texto */
+            font-family: Arial, sans-serif;
+        }
+
+        .header-title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .content {
+            margin: 5px;
+        }
+
+        label {
+            width: 150px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+
+        p {
+            width: 150px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 0px;
+        }
+
+        fieldset {
+            margin: 0px 0;
+            border-radius: 10px;
+            border-color: white;
+        }
+    </style>
     <link rel="stylesheet" href="base.css">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="menu">
@@ -18,20 +62,52 @@
 
         <div class="main">
             <div class="header">
-                Clinica de adotação
-                <img src="patalogo.webp" width="150" height="150">
+                <img src="patalogo.webp" width="150" height="150" alt="Logo Pet.Lar">
+                <div class="header-title">Pet.Lar</div>
             </div>
-    
-            <div class="content">
-                <p>Amor de verdade não se compra, se encontra.</p>
-                <!-- Aqui vai o seu conteúdo -->
-            </div>
-    
+            <fieldset>
+                <legend>Dados pessoais do adotante</legend>
+
+                <div class="content">
+                    <label>Nome: </label><input type="text" />
+                    <label>Idade: </label><input type="text" /> <br><br>
+                    <label>CPF: </label><input type="text" />
+                    <label>RG: </label><input type="text" /> <br>
+                    <p>Tem filhos?</p>
+                    <input type="radio" name="filhos" value="sim"> Sim
+                    <input type="radio" name="filhos" value="não"> Não <br>
+                    <label>Quantidade Filhos:</label><input type="number" /> <br>
+                    <p>Tem Pets?</p>
+                    <input type="radio" name="filhos" value="sim"> Sim
+                    <input type="radio" name="filhos" value="não"> Não <br>
+                    <label>Quantidade Pets:</label><input type="number" /> <br><br>
+                    <label>Profissão: </label><input type="text" />
+                    <label>Renda Familiar:</label><input type="number" /> <br><br>
+                    <label>Rua: </label><input type="text" />
+                    <label>N°: </label><input type="number" /> <br><br>
+                    <label>Bairro: </label><input type="text" />
+                    <label>Cidade/UF: </label><input type="text" /> <br><br>
+                    <label>Whatsapp: </label><input type="text" />
+                    <label>E-mail: </label><input type="text" /> <br><br><br><br><br><br><br><br>
+
+                    <button type="submit" onclick="alert('Enviado')"> Enviar </button>
+                </div>
+            </fieldset>
             <div class="footer">
-                Entre em contato com a gente!
-                
+                <ul>
+                    Entre em contato com a gente através dos canais abaixo:
+                    <li>
+                        <a href="https://wa.me/5511948793402">Whatsapp</a>
+                    </li>
+                    <li>
+                        <a href="#">Intragram</a>
+                    </li>
+                    <li>
+                        <a href="mailto:robinsondahrog00@gmail.com">E-mail</a>
+                    </li>
             </div>
         </div>
     </div>
 </body>
+
 </html>
