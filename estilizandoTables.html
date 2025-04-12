@@ -1,0 +1,77 @@
+<!-- TAGS EMBED -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trilha HTML - Dio</title>
+        <!-- SITE PARA TABELAS https://html-css-js.com/css/generator/box-shadow/ -->
+        <style>
+            table {
+                -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24); 
+                box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+                border: solid 1px grey;
+            }
+            table thead th{
+                background-color: black;
+                color: white;
+            }
+            table tbody tr:nth-child(even) td {
+                background-color: rgb(172, 168, 168);
+            }
+            table tfoot td {
+                background-color: gray;
+            }
+            table tbody tr:hover td{
+                background-color: #E9E9E9;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <table width="250" align="center" cellspacing="0" cellpadding="5">
+            <!-- Título da tabela: <caption>Tabela de idade de Alunos</caption> -->
+            <thead>
+                <tr>
+                    <th colspan="2" title="minha tabela">Minha tabela</th>
+                </tr>
+                <tr>
+                    <th title="Nome Completo">Nome</th>
+                    <th title="Idade de Nascimento">Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="1">
+                    <td>Robinson</td>
+                    <td align="center">22</td>
+                </tr>
+                <tr id="2">
+                    <td>Marianna</td>
+                    <td align="center">21</td>
+                </tr>
+                <tr id="3">
+                    <td>Jose</td>
+                    <td align="center">65</td>
+                </tr>
+                <tr id="4">
+                    <td>Moises</td>
+                    <td align="center">50</td>
+                </tr>
+                <tr id="5">
+                    <td>Cleusa</td>
+                    <td align="center">80</td>
+                </tr>
+                <tr id="6">
+                    <td>Melissa</td>
+                    <td align="center">15</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td align="center"><b>Total</b></td>
+                <td align="center">6</td>
+            </tfoot>
+        </table>
+    </body>
+</html>
