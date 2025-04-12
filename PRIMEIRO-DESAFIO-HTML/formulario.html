@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet.Lar</title>
     <style>
-        button {}
-
         .header {
             display: flex;
             align-items: center;
@@ -70,7 +68,7 @@
 
                 <div class="content">
                     <label>Nome: </label><input type="text" />
-                    <label>Idade: </label><input type="text" /> <br><br>
+                    <label>Idade: </label><input type="text" /> <br>
                     <label>CPF: </label><input type="text" />
                     <label>RG: </label><input type="text" /> <br>
                     <p>Tem filhos?</p>
@@ -80,17 +78,25 @@
                     <p>Tem Pets?</p>
                     <input type="radio" name="filhos" value="sim"> Sim
                     <input type="radio" name="filhos" value="não"> Não <br>
-                    <label>Quantidade Pets:</label><input type="number" /> <br><br>
+                    <label>Quantidade Pets:</label><input type="number" /> <br>
                     <label>Profissão: </label><input type="text" />
-                    <label>Renda Familiar:</label><input type="number" /> <br><br>
+                    <label>Renda Familiar:</label><input type="number" /> <br>
                     <label>Rua: </label><input type="text" />
-                    <label>N°: </label><input type="number" /> <br><br>
+                    <label>N°: </label><input type="number" /> <br>
                     <label>Bairro: </label><input type="text" />
-                    <label>Cidade/UF: </label><input type="text" /> <br><br>
+                    <label>Cidade/UF: </label><input type="text" /> <br>
                     <label>Whatsapp: </label><input type="text" />
-                    <label>E-mail: </label><input type="text" /> <br><br><br><br><br><br><br><br>
-
-                    <button type="submit" onclick="alert('Enviado')"> Enviar </button>
+                    <label>E-mail: </label><input type="text" /> <br> <br>
+                    <label>RG Frente/Verso: </label> <input type="file" multiple /> <br>
+                    <br><br><br>
+                    <div class="row">
+                        <button type="reset">
+                            Limpar
+                        </button>
+                        <button type="submit">
+                            Enviar Formulário
+                        </button>
+                    </div>
                 </div>
             </fieldset>
             <div class="footer">
