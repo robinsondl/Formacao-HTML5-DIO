@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet.LarPagServiços</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .header {
+            display: flex;
+            align-items: center;
+            /* alinha verticalmente */
+            gap: 16px;
+            /* espaço entre imagem e texto */
+            font-family: Arial, sans-serif;
+        }
+
+        .header-title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        table {
+            -webkit-box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.24);
+            box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.24);
+            border: solid 1px grey;
+        }
+
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+
+        table tbody tr:nth-child(even) td {
+            background-color: rgb(172, 168, 168);
+        }
+
+        table tfoot td {
+            background-color: gray;
+        }
+
+        /* table tbody tr:hover td {
+            background-color: #E9E9E9;
+            cursor: pointer;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Sobre Nós</a></li> <br>
+                <li><a href="formulario.html">Formulário de adoção</a></li> <br>
+                <li><a href="serviços.html">Serviços</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img title="Pet.Lar" src="patalogo.webp" width="150" height="150" alt="Logo Pet.Lar">
+                <div class="header-title">Pet.Lar</div>
+            </div>
+
+            <div class="content">
+                <table summary="table serviços" border="1" width="500" align="center">
+                    <caption><b>Horários de Atendimento</b></caption>
+                    <thead>
+                        <th align="center" title="Funcionarios">Escala Funcionários</th>
+                        <th align="center" title="Segunda a Sexta">Segunda a Sexta</th>
+                        <th align="center" title="Sabado">Sábados</th>
+                        <th align="center" title="Fériados">Fériados</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center">Robinson Dahrog</td>
+                            <td align="center">08h - 18h</td>
+                            <td align="center">-</td>
+                            <td align="center">-</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Marianna Toledo</td>
+                            <td align="center">08h - 18h</td>
+                            <td align="center">07h - 16h</td>
+                            <td align="center">10h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Jamili Dahrog</td>
+                            <td align="center">08h - 18h</td>
+                            <td align="center">07h - 16h</td>
+                            <td align="center">10h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Oscar Carrasco</td>
+                            <td align="center">08h - 18h</td>
+                            <td align="center">07h - 16h</td>
+                            <td align="center">10h - 14h</td>
+                        </tr>
+                    </tbody>
+                </table> <br> <br> <br> <br>
+                <p><b>Onde estamos:</b></p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.054228529222!2d-46.455213500000006!3d-23.5305519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66b6e5fe09d7%3A0x69ea546c7f5a7cb3!2sRua%20Carolina%20Fonseca%2C%20315%20-%20Vila%20Santana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008230-030!5e0!3m2!1spt-BR!2sbr!4v1744470834199!5m2!1spt-BR!2sbr"
+                    align="center" width="500" height="250" style="border:10;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="footer">
+                <ul>
+                    Entre em contato com a gente através dos canais abaixo: <br> <br>
+                    <li>
+                        <a href="https://wa.me/5511948793402">Whatsapp</a>
+                    </li>
+                    <li>
+                        <a href="#">Intragram</a>
+                    </li>
+                    <li>
+                        <a href="mailto:robinsondahrog00@gmail.com">E-mail</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

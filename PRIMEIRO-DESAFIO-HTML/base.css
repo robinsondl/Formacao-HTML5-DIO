@@ -1,8 +1,10 @@
-html, body {
+html,
+body {
     margin: 0;
 }
+
 body {
-    background-color: #ffffff;
+    background-color: #80ad66;
     display: flex;
     justify-content: center;
 }
@@ -11,28 +13,33 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #80ad66;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
-    background-color: #ffffff;
+    background-color: #80ad66;
     padding: 10px 20px 0px;
 }
+
 .header {
-    background-color: #ffffff;
+    background-color: #80ad66;
     min-height: 150px;
 }
+
 .content {
-    background-color: #ffffff;
+    background-color: #80ad66;
     min-height: 300px;
     padding: 20px;
 }
+
 .footer {
-    background-color: #ffffff;
+    background-color: #80ad66;
     min-height: 150px;
 }
