@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea {
+            width: 100%;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            display: block;
+            font-size: 2em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 contenteditable>Novos Atributos</h1>
+        <form method="get" action="" id="form"> </form>''
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="name">
+                Nome:
+                <input type="text" id="name" name="name" form="form" autofocus required>
+            </label>
+            <label for="email">
+                E-mail:
+                <input placeholder="Ex: email@gmail.com" type="text" id="email" name="email" form="form" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="address">
+                Endereço:
+                <input type="text" id="address" form="form" name="address">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Observações</legend>
+            <textarea minlength="10" form="form" maxlength="200" name="obversation" id="obversation" cols="30"
+                rows="5"></textarea>
+        </fieldset>
+
+        <button type="reset" form="form">Limpar</button>
+        <button type="submit" form="form">Enviar</button>
+
+    </main>
+</body>
+
+</html>
